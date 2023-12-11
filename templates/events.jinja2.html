@@ -2,8 +2,21 @@
 {% extends 'base.jinja2.html' %}
 {% block head %}
 
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".sampleTable").fancyTable({
+            sortColumn: 0,
+            pagination: true,
+            perPage: 10,
+            globalSearch: true
+        });
+    });
+</script>
+
 {% endblock %}
 {# ---------- #}
 {% block content %}
+
 
 {% endblock %}
