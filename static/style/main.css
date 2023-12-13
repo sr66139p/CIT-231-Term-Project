@@ -1,16 +1,17 @@
 nav{
     text-align: center;
     color: #002d72;
+    background-color: lightblue;
 }
 
 nav .hoverText{
     font-weight: bold;
     color: #ffbd2c;
-    background-color: azure;
+    background-color: blue;
 }
 
 main{
-    background-color: #819ac0;
+    background-color: azure;
     color: #002d72;
 }
 
