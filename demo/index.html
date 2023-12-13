@@ -4,7 +4,9 @@
         <title>Home</title>
         <link rel="icon" type="image/x-icon" href="../static/favicon/favicon.ico">
         <link rel="stylesheet" type="text/css" href="../static/style/main.css">
+        <script src="scripts.js" async></script>
     </head>
+    <body>
     <nav> 
         <a href="index.html">
             <img src="../static/images/pace_logo.png" alt="Pace Logo" width="100" height="50">Home
@@ -13,10 +15,34 @@
         <a href="wifi.html">Internet</a>
         <a href="events.html">Events</a>
         <a href="schedule.html">Schedule</a>
-        <button id="darkmode" onclick="darkMode()">Dark Mode</button>
+        <button id="darkmode" onclick="darkMode()">Toggle Dark Mode</button>
     </nav>
-    
-    <footer>
-        Copyleft 2023 no rights reserved
-    </footer>
+    <main>
+        <h1>Welcome to Pace University!</h1><br>
+        <p>We </p>
+        <h2>Useful links</h2><hr>
+        <ul>
+            <li><a href="https://www.portal.pace.edu">Pace Portal</a></li>
+            <li><a href="https://pace.starfishsolutions.com/starfish-ops/">OnTrack/Starfish</a></li>
+        </ul>
+    </main>
+    <footer>@media only screen and (min-width: 768px; max-width: 1080px){
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 80%;
+        }
+        main{
+            display: grid;
+        }
+        main p{
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        body{
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+    }
+</body>
 </html>

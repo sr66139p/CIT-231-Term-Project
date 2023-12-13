@@ -1,3 +1,10 @@
+@media only screen and (min-width: 1080px){
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 80%;
+    }
+}
 nav{
     text-align: center;
     color: #002d72;
@@ -24,6 +31,8 @@ main video{
 }
 
 footer{
+    position: relative;
+    bottom: 0px;
     text-align: center;
     background-color: #002d72;
     color: #ffbd2c;
