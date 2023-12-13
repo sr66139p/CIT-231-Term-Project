@@ -1,3 +1,114 @@
 [
-    
+    {
+        "name": "Spring Fest 2023",
+        "location": "University Auditorium",
+        "date": "2023-04-15",
+        "time": "10:00 AM - 5:00 PM",
+        "organizer": "Student Council"
+    },
+    {
+        "name": "Tech Expo 2023",
+        "location": "Engineering Building",
+        "date": "2023-05-20",
+        "time": "1:00 PM - 6:00 PM",
+        "organizer": "Computer Science Department"
+    },
+    {
+        "name": "Cultural Night",
+        "location": "Outdoor Amphitheater",
+        "date": "2023-06-10",
+        "time": "7:00 PM - 11:00 PM",
+        "organizer": "Cultural Affairs Committee"
+    },
+    {
+        "name": "Sports Carnival",
+        "location": "Sports Complex",
+        "date": "2023-07-05",
+        "time": "9:00 AM - 3:00 PM",
+        "organizer": "Athletics Department"
+    },
+    {
+        "name": "Science Fair",
+        "location": "Science Building",
+        "date": "2023-08-18",
+        "time": "10:00 AM - 4:00 PM",
+        "organizer": "Science Club"
+    },
+    {
+        "name": "Robotics Expo",
+        "location": "Engineering Building",
+        "date": "2025-01-25",
+        "time": "9:00 AM - 4:00 PM",
+        "organizer": "Robotics Department"
+    },
+    {
+        "name": "Global Leadership Summit",
+        "location": "Leadership Hall",
+        "date": "2025-02-15",
+        "time": "10:00 AM - 5:00 PM",
+        "organizer": "Student Leadership Council"
+    },
+    {
+        "name": "Health Science Conference",
+        "location": "Health Sciences Auditorium",
+        "date": "2025-03-10",
+        "time": "8:30 AM - 4:30 PM",
+        "organizer": "Health Science Club"
+    },
+    {
+        "name": "Virtual Reality Showcase",
+        "location": "Virtual Reality Lab",
+        "date": "2025-04-05",
+        "time": "6:00 PM - 9:00 PM",
+        "organizer": "VR Development Club"
+    },
+    {
+        "name": "Entrepreneurial Pitch Competition",
+        "location": "Business Incubator Center",
+        "date": "2025-05-20",
+        "time": "1:00 PM - 4:00 PM",
+        "organizer": "Entrepreneurship Center"
+    },
+    {
+        "name": "Data Science Symposium",
+        "location": "Data Science Lab",
+        "date": "2025-06-15",
+        "time": "10:00 AM - 3:00 PM",
+        "organizer": "Data Science Club"
+    },
+    {
+        "name": "International Dance Festival",
+        "location": "Performing Arts Center",
+        "date": "2025-07-10",
+        "time": "7:00 PM - 10:00 PM",
+        "organizer": "International Cultural Exchange Club"
+    },
+    {
+        "name": "Innovation and Technology Expo",
+        "location": "Innovation Hub",
+        "date": "2025-08-20",
+        "time": "9:00 AM - 6:00 PM",
+        "organizer": "Innovation Center"
+    },
+    {
+        "name": "Psychology Symposium",
+        "location": "Psychology Department Auditorium",
+        "date": "2025-09-12",
+        "time": "2:00 PM - 7:00 PM",
+        "organizer": "Psychology Club"
+    },
+    {
+        "name": "Language and Culture Fair",
+        "location": "Language Studies Building",
+        "date": "2025-10-05",
+        "time": "11:00 AM - 4:00 PM",
+        "organizer": "Language Studies Department"
+    },
+    {
+        "name": "Cybersecurity Conference",
+        "location": "Cybersecurity Lab",
+        "date": "2025-11-18",
+        "time": "8:30 AM - 5:30 PM",
+        "organizer": "Cybersecurity Club"
+    }
 ]

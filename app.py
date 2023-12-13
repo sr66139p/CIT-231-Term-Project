@@ -32,6 +32,10 @@ def events():
         data = jload(f)
     return render_template('events.jinja2.html', data=data)
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.jinja2.html')
+
 
 if __name__ == '__main__':
     app.run(port=8888)

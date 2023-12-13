@@ -1,6 +1,32 @@
-<!DOCTYPE html>
 {% extends 'base.jinja2.html' %}
 {% block head %}
+
+
+
+{% endblock %}
+{# ---------- #}
+{% block content %}
+<table id="schedule">
+    <thead>
+        <tr>
+            <th>Course Name</th>
+            <th>Course ID</th>
+            <th>Days</th>
+            <th>Time</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    {% for course in data %}
+    <tr>
+        <td>{{ course['name'] }}</td>
+        <td>{{ course['id'] }}</td>
+        <td>{{ course['days'] }}</td>
+        <td>{{ course['time'] }}</td>
+        <td>{{ course['location'] }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -12,11 +38,6 @@
         });
     });
 </script>
-
-{% endblock %}
-{# ---------- #}
-{% block content %}
-
 {% endblock %}
 {% block foot %}
 {% endblock %}

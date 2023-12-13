@@ -1,5 +1,107 @@
 [
     {
-        
+        "name": "Linear Algebra",
+        "id": "MATH301",
+        "days": "MWF",
+        "time": "11:00 AM - 12:30 PM",
+        "location": "Room 108, Mathematics Building"
+    },
+    {
+        "name": "Literature Seminar",
+        "id": "LIT401",
+        "days": "TR",
+        "time": "10:30 AM - 12:00 PM",
+        "location": "Room 307, Humanities Building"
+    },
+    {
+        "name": "Chemistry Lab",
+        "id": "CHEM301L",
+        "days": "MW",
+        "time": "2:00 PM - 5:00 PM",
+        "location": "Lab 103, Chemistry Building"
+    },
+    {
+        "name": "History of Art",
+        "id": "ART202",
+        "days": "TR",
+        "time": "1:00 PM - 2:30 PM",
+        "location": "Room 205, Arts Building"
+    },
+    {
+        "name": "Introduction to Psychology",
+        "id": "PSY101",
+        "days": "MW",
+        "time": "11:00 AM - 12:30 PM",
+        "location": "Room 303, Psychology Department"
+    },
+    {
+        "name": "Calculus I",
+        "id": "MA101",
+        "days": "TR",
+        "time": "1:00 PM - 2:30 PM",
+        "location": "Room 204, Math Building"
+    },
+    {
+        "name": "Introduction to Computer Science",
+        "id": "CS101",
+        "days": "MWF",
+        "time": "9:00 AM - 10:30 AM",
+        "location": "Room 101, Science Building"
+    },
+    {
+        "name": "Political Science Seminar",
+        "id": "POL401",
+        "days": "MW",
+        "time": "1:30 PM - 3:00 PM",
+        "location": "Room 302, Social Sciences Building"
+    },
+    {
+        "name": "Environmental Science",
+        "id": "ENVS202",
+        "days": "TR",
+        "time": "9:30 AM - 11:00 AM",
+        "location": "Lab 201, Environmental Science Building"
+    },
+    {
+        "name": "Introduction to Economics",
+        "id": "ECON101",
+        "days": "TR",
+        "time": "10:00 AM - 11:30 AM",
+        "location": "Room 202, Economics Building"
+    },
+    {
+        "name": "Spanish Language and Culture",
+        "id": "SPAN203",
+        "days": "MWF",
+        "time": "11:30 AM - 1:00 PM",
+        "location": "Room 305, Language Center"
+    },
+    {
+        "name": "Introduction to Astrophysics",
+        "id": "ASTRO101",
+        "days": "TR",
+        "time": "3:00 PM - 4:30 PM",
+        "location": "Observatory Hall"
+    },
+    {
+        "name": "Philosophy of Ethics",
+        "id": "PHIL401",
+        "days": "MWF",
+        "time": "10:00 AM - 11:30 AM",
+        "location": "Room 401, Humanities Building"
+    },
+    {
+        "name": "Organic Chemistry",
+        "id": "CHEM302",
+        "days": "TR",
+        "time": "2:30 PM - 4:00 PM",
+        "location": "Lab 105, Chemistry Building"
+    },
+    {
+        "name": "Digital Marketing Strategies",
+        "id": "MKTG301",
+        "days": "MW",
+        "time": "4:00 PM - 5:30 PM",
+        "location": "Room 210, Business School"
     }
 ]

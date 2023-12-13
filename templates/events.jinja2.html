@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 {% extends 'base.jinja2.html' %}
 {% block head %}
 
@@ -17,6 +16,29 @@
 {% endblock %}
 {# ---------- #}
 {% block content %}
+
+<table id="events">
+    <thead>
+        <tr>
+            <th>Event</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Organizer</th>
+        </tr>
+    </thead>
+
+    {% for event in data %}
+    <tr>
+        <td>{{ event['name'] }}</td>
+        <td>{{ event['location'] }}</td>
+        <td>{{ event['date'] }}</td>
+        <td>{{ event['time'] }}</td>
+        <td>{{ event['organizer'] }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
 
 
 {% endblock %}
