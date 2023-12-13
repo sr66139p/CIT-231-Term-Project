@@ -5,11 +5,12 @@ nav{
 nav .hoverText{
     font-weight: bold;
     color: #ffbd2c;
-    background-color: #002d72;
+    background-color: azure;
 }
 
 main{
     background-color: #819ac0;
+    color: #002d72;;
 }
 
 main h1{
@@ -18,4 +19,9 @@ main h1{
 
 main video{
     text-align: center;
+}
+
+footer{
+    background-color: #819ac0;
+    color: #ffbd2c;
 }
