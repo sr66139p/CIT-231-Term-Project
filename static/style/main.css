@@ -1,8 +1,21 @@
-header{
+nav{
+    text-align: center;
 }
-h1{
+
+nav .hoverText{
+    font-weight: bold;
+    color: #ffbd2c;
+    background-color: #002d72;
 }
-body{
+
+main{
+    background-color: #819ac0;
 }
-footer{
+
+main h1{
+    font-weight: bold;
+}
+
+main video{
+    text-align: center;
 }
