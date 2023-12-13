@@ -6,14 +6,19 @@
 {# ---------- #}
 {% block content %}
 <main>
-    <p>
-    How to connect to Pace University WiFi:<br>
-    1. Select “PACE-WIFI” from the list of networks<br>
+    <h1>How to connect to Pace University WiFi:</h1><hr>
+    <p>1. Select “PACE-WIFI” from the list of networks<br>
     2. Select “Protected EAP (PEAP)” for authentication<br>
     3. Check the “No CA certificate required” box<br>
-    4. These should already be set by default, but if not, the PEAP version should be “Automatic”, the Inner Authentication field should be “MSCHAPv2”, the Security field should be “WPA2 & WPA2 Enterprise”, and the Anonymous Identity and Domain fields can be left blank<br>
+    4. These should already be set by default, but if not, the PEAP version should be “Automatic”,<br>
+    the Inner Authentication field should be “MSCHAPv2”, the Security field should be “WPA2 & WPA2 Enterprise”,<br>
+    and the Anonymous Identity and Domain fields can be left blank<br>
     5. Enter your username and password (your username is your email without @pace.edu)<br>
     6. Click Connect<br>
     </p>
+    <video width="720" height="480" controls>
+        <source src="../static/videos/tutorial.webm" type="video/webm">
+      Your browser cannot display embedded videos. Please upgrade to a newer one.
+      </video> 
 </main>
 {% endblock %}
