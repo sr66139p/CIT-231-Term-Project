@@ -15,8 +15,9 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js" type="text/javascript"></script>
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js" type="text/javascript" async></script>
+    <script src="{{ url_for('static', filename='darkmode.js') }}" type="text/javascript" async></script>
     {% block head %}
     {% endblock %}
 </head>
@@ -31,6 +32,7 @@
         <a href="{{ url_for('events') }}">Events</a>
         <a href="{{ url_for('schedule') }}">Schedule</a>
         <a href="{{ url_for('contact') }}">Contact</a>
+        <button id="darkmode" onclick="darkMode()">Toggle Dark Mode</button>
     </nav>
     {% block content %}
     {% endblock %}
