@@ -48,6 +48,15 @@ main video{
     margin: 0 auto;
 }
 
+main img{
+    display: block;
+    margin: 0 auto;
+}
+
+form{
+    padding: 5%;
+}
+
 footer{
     text-align: center;
     background-color: #002d72;

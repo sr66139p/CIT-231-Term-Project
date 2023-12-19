@@ -17,16 +17,16 @@
         <a href="schedule.html">Schedule</a>
         <button id="darkmode" onclick="darkMode()">Toggle Dark Mode</button>
     </nav>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#schedule").fancyTable({
-                sortColumn: 0,
-                pagination: true,
-                perPage: 10,
-                globalSearch: true
-            });
-        });
-    </script>
+    <main>
+        <form method="get" id="form1">
+        <label for="classes">What classes do you want to see?</label>
+        <select name="classes" id="classes">
+          <option value="best">Only the Best</option>
+          <option value="eng">English 201</option>
+        </select>
+        <button onclick="reveal()" type="submit" form="form1" value="reveal()">Submit</button>
+        </form>
+    </main>
     <footer>
         Copyleft 2023 no rights reserved | made with 100% recycled code
     </footer>
